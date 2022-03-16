@@ -4,9 +4,9 @@
 void print_alphabet(void);
 
 /**
- * main - check code
+ * main - check the code
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
