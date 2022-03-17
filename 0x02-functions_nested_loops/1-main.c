@@ -6,7 +6,7 @@ void print_alphabet(void);
 /**
  * main - check the code
  *
- * Return: ALways 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
