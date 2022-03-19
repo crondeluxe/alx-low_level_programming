@@ -12,6 +12,8 @@
 
 void print_remaining_days(int month, int day, int year)
 {
+	int lp_day;
+
 	if (year % 4 == 0 && year % 100 != 0)
 	{
 		if (month >= 2 && day >= 60)
@@ -20,8 +22,8 @@ void print_remaining_days(int month, int day, int year)
 		}
 		if (day > 60)
 		{
-			day--;
-			printf("Day of the year: %d\n", day);
+			lp_day = day - 1;
+			printf("Day of the year: %d\n", lp_day);
 		}
 		printf("Remaining days: %d\n", 366 - day);
 	}
@@ -31,10 +33,10 @@ void print_remaining_days(int month, int day, int year)
 		{
 			day++;
 		}
-		if (day > 60)
+		while (day > 60)
 		{
-			day--;
-			printf("Day of the year: %d\n", day);
+			lp_day = day - 1;
+			printf("Day of the year: %d\n", lp_day);
 		}
 		printf("Remaining days: %d\n", 366 - day);
 	}
