@@ -33,7 +33,7 @@ void print_remaining_days(int month, int day, int year)
 		{
 			day++;
 		}
-		while (day > 60)
+		if (day > 60)
 		{
 			lp_day = day - 1;
 			printf("Day of the year: %d\n", lp_day);
