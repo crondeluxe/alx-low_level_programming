@@ -8,10 +8,12 @@
  */
 int _isupper(int c)
 {
+	/* this returns 1 if the input is uppercase */
 	if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
+	/* this returns 0 if the input is anything else */
 	else
 		return (0);
 }
