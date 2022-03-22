@@ -13,7 +13,7 @@ int main(void)
 	return (0);
 }
 /**
- * fizz_buzz - prints 1 - 100, fizz, buzz, and fizzbuzz for multiple of 3,5,3 and 5
+ * fizz_buzz - prints 1-100, fizz, buzz, and fizzbuzz for multiple of 3,5,3 & 5
  *
  * Return: void
  */
