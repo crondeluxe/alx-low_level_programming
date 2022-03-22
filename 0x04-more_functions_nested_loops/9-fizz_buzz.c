@@ -1,11 +1,23 @@
 #include <stdio.h>
 
+/* function declaration */
+void fizz_buzz(void);
 /**
- * main - prints 1 - 100, fizz, buzz, and fizzbuzz for multiple of 3,5,3 and 5
+ * main - call the function fizz_buzz to print
  *
  * Return: Always 0 (Success)
  */
 int main(void)
+{
+	fizz_buzz();
+	return (0);
+}
+/**
+ * fizz_buzz - prints 1 - 100, fizz, buzz, and fizzbuzz for multiple of 3,5,3 and 5
+ *
+ * Return: void
+ */
+void fizz_buzz(void)
 {
 	int a;
 
@@ -27,5 +39,4 @@ int main(void)
 			printf("%d ", a);
 	}
 	printf("\n");
-	return (0);
 }
