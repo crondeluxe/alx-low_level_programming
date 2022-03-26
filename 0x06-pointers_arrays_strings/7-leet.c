@@ -13,12 +13,14 @@
 char *leet(char *s)
 {
 	int stringCnt = 0;
-	int leetCnt = 0;
+	int leetCnt;
 	char leetLetters[] = "aAeEoOtTlL";
 	char leetNum[] = "4433007711";
 
 	while (s[stringCnt] != '\0')
 	{
+		leetCnt = 0;
+
 		while (leetCnt < 10)
 		{
 			if (leetLetters[leetCnt] == s[stringCnt])
